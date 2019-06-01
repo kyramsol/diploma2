@@ -1,0 +1,29 @@
+.tablestyle
+{
+    width: 80%;
+    border-collapse: collapse;
+
+}
+.tablestyle td
+{
+
+    height: 5vh;
+    border-bottom: 1px solid #e8f4fb;
+
+
+}
+.tablestyle th
+{
+    text-align: left;
+    background: rgba(0, 166, 222, 0.15);
+    height: 5vh;
+}
+body
+{
+    font-family:sans-serif;
+}
+.pad
+{
+    padding-left: 2vh;
+
+}

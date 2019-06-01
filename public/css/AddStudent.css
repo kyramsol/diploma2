@@ -1,0 +1,52 @@
+.textfield
+{
+    height: 40px;
+    border-radius: 15px;
+    border: 0px;
+    background: #e4e4e4;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    color: #3e3e3e;
+    font-size: 17px;
+    margin: 5px;
+    width: 600px;
+
+}
+
+.textfield:focus
+{
+
+    background: white;
+    outline: -webkit-focus-ring-color auto 0px;
+    box-shadow: 0 0 5px #2a46a5;
+}
+.Addform td
+{
+    font-size: 14px;
+    text-align: end;
+
+}
+form
+{
+    padding: 10px 40px 30px 40px;
+    margin-bottom: 0px;
+
+}
+body
+{
+    display:flex;
+    justify-content: center;
+    Align-items: center;
+    font-family: sans-serif;
+}
+.border
+{
+    border: 2px solid #dadce0;
+    border-radius: 10px;
+}
+.align
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
