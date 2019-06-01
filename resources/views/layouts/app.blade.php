@@ -16,10 +16,10 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
     <link rel="stylesheet" href="{{ URL::asset('css/MainStyle.css') }}" >
     <link rel="stylesheet" href="{{ URL::asset('css/Results.css') }}" >
-
+    <link rel="stylesheet" href="{{ URL::asset('css/AddStudent.css') }}" >
     <style>
         body {
-            font-family: 'Lato';
+            font-family: sans-serif;
         }
 
         .fa-btn {
@@ -42,7 +42,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
+                    MK Diplomas
                 </a>
             </div>
 

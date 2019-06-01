@@ -1,6 +1,6 @@
 .tablestyle
 {
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;
 
 }
@@ -9,21 +9,20 @@
 
     height: 5vh;
     border-bottom: 1px solid #e8f4fb;
-
+    padding-left: 10px;
 
 }
 .tablestyle th
 {
     text-align: left;
-    background: rgba(0, 166, 222, 0.15);
+    background: #f0f0f0;
     height: 5vh;
+    padding-left: 10px;
+
 }
-body
-{
-    font-family:sans-serif;
-}
+
 .pad
 {
-    padding-left: 2vh;
+    padding: 0vh 2vh ;
 
 }

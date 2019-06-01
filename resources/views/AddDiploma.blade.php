@@ -1,11 +1,11 @@
-<head>
-    <link rel="stylesheet" href="{{ URL::asset('css/AddStudent.css') }}" >
-    <link rel="stylesheet" href="{{ URL::asset('css/MainStyle.css') }}" >
-</head>
-<body >
-<div class="border">
-    <h3 align="center">Додавання роботи</h3>
-<form class="Addform">
+@extends('layouts.app')
+
+@section('content')
+<div class="align_body">
+    <div>
+    <div class="head">Додавання Роботи</div>
+        <div class="border">
+        <form class="Addform">
         <table>
         <tr>
             <td>Назва</td>   <td><input text class="textfield" placeholder="" required></td>
@@ -23,8 +23,8 @@
             <td></td>   <td align="right"><input type="submit" class="button" ></td>
         </tr>
         </table>
-
-
-</form>
+        </form>
+        </div>
+    </div>
 </div>
-</body>
+@endsection
