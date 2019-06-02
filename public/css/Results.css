@@ -1,6 +1,6 @@
 .tablestyle
 {
-    width: 100%;
+    width: 100vh;
     border-collapse: collapse;
 
 }
@@ -23,6 +23,8 @@
 
 .pad
 {
-    padding: 0vh 2vh ;
+dispay: flex;
+    justify-content: center;
+
 
 }
